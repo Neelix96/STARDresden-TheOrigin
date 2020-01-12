@@ -2,9 +2,9 @@
     "settings": {
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 629.5999755859375,
+        "worldScrollX": 1017.5999755859375,
         "worldScrollY": 0,
-        "zoom": 90.79861116409302,
+        "zoom": 111.6319432258606,
         "customColorsWhite": "E8F8E0",
         "customColorsLight": "B0F088",
         "customColorsDark": "509878",
@@ -14,7 +14,7 @@
         "startY": 0,
         "startDirection": "right",
         "startSceneId": "382961a1-e615-4b92-92a7-f1a791b50b7a",
-        "playerSpriteSheetId": "eb485872-4928-4bc5-b013-2acfdebcccea",
+        "playerSpriteSheetId": "b1e22726-221c-46fb-bede-f29f34811774",
         "startAnimSpeed": "3"
     },
     "scenes": [
@@ -123,10 +123,10 @@
                 },
                 {
                     "id": "deea5be1-2e0b-4f80-a610-dffb1ee3385b",
-                    "spriteSheetId": "93e24848-4c87-4189-af9a-7cc40592ff02",
+                    "spriteSheetId": "09ce7767-fe5a-4a09-abca-59b480ccc58d",
                     "x": 3,
                     "y": 17,
-                    "movementType": "static",
+                    "movementType": "faceInteraction",
                     "direction": "down",
                     "script": [
                         {
@@ -375,7 +375,7 @@
                 {
                     "id": "1c64ec62-19b6-4ac1-9226-7fb1e237ea3f",
                     "spriteSheetId": "1685e1d1-d61b-4487-8b13-574215a7ee36",
-                    "x": 18,
+                    "x": 17,
                     "y": 16,
                     "movementType": "randomFace",
                     "direction": "down",
@@ -557,7 +557,7 @@
                     "id": "94c07e06-cd92-4791-943b-808da23f9eb0",
                     "command": "EVENT_PLAYER_SET_SPRITE",
                     "args": {
-                        "spriteSheetId": "eb485872-4928-4bc5-b013-2acfdebcccea"
+                        "spriteSheetId": "b1e22726-221c-46fb-bede-f29f34811774"
                     }
                 },
                 {
@@ -2135,7 +2135,7 @@
                     "command": "EVENT_SWITCH_SCENE",
                     "args": {
                         "sceneId": "25811724-7f4e-4e8f-b084-2fd39a985ae3",
-                        "x": 6,
+                        "x": 3,
                         "y": 17,
                         "direction": "",
                         "fadeSpeed": "2",
@@ -16747,7 +16747,7 @@
                     "id": "94c07e06-cd92-4791-943b-808da23f9eb0",
                     "command": "EVENT_PLAYER_SET_SPRITE",
                     "args": {
-                        "spriteSheetId": "eb485872-4928-4bc5-b013-2acfdebcccea",
+                        "spriteSheetId": "b1e22726-221c-46fb-bede-f29f34811774",
                         "__collapse": false
                     }
                 },
@@ -19515,7 +19515,7 @@
                     "id": "682508e9-9d3c-4ecf-a98b-d53050249fe5",
                     "command": "EVENT_PLAYER_SET_SPRITE",
                     "args": {
-                        "spriteSheetId": "eb485872-4928-4bc5-b013-2acfdebcccea",
+                        "spriteSheetId": "b1e22726-221c-46fb-bede-f29f34811774",
                         "__collapse": false
                     }
                 },
@@ -23384,7 +23384,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Blank.png",
-            "_v": 1576275618467
+            "_v": 1578860063403
         },
         {
             "id": "cb758656-6dc8-4d78-ac1a-a522b2e6f0ed",
@@ -23394,7 +23394,7 @@
             "imageWidth": 256,
             "imageHeight": 144,
             "filename": "CAD-Party.png",
-            "_v": 1576275618467
+            "_v": 1578860063403
         },
         {
             "id": "7656e47f-8d52-4f47-9bf4-952bdb5cb089",
@@ -23404,7 +23404,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Intro_Kapitel2.png",
-            "_v": 1576275618467
+            "_v": 1578860063403
         },
         {
             "id": "f8b1c7ad-7bb2-44b2-8189-175ae8698f11",
@@ -23414,7 +23414,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "logo.png",
-            "_v": 1576275618468
+            "_v": 1578860063403
         },
         {
             "id": "480f4c8e-dbf0-4e18-a206-b8b68d4ccfac",
@@ -23424,7 +23424,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Namenseingabe.png",
-            "_v": 1576275618468
+            "_v": 1578860063404
         },
         {
             "id": "4c170572-57fa-4b3d-8a20-ad2b607f6fcc",
@@ -23434,7 +23434,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "Sky.png",
-            "_v": 1576275618468
+            "_v": 1578860063404
         },
         {
             "id": "aa113f73-b794-452b-bd7b-d811a9e25cae",
@@ -23444,7 +23444,7 @@
             "imageWidth": 256,
             "imageHeight": 192,
             "filename": "SLUB-047.png",
-            "_v": 1576275618469
+            "_v": 1578860063404
         },
         {
             "id": "92c7a2d3-9b51-4960-b3c9-0449a7618ffc",
@@ -23454,7 +23454,7 @@
             "imageWidth": 256,
             "imageHeight": 192,
             "filename": "SLUB-047_Meltdown.png",
-            "_v": 1576275618468
+            "_v": 1578860063404
         },
         {
             "id": "40fda058-df90-4205-a239-fe77bce4fa79",
@@ -23464,7 +23464,7 @@
             "imageWidth": 256,
             "imageHeight": 256,
             "filename": "stars.png",
-            "_v": 1576275618469
+            "_v": 1578860063404
         },
         {
             "id": "43b487cc-91a3-4a26-ab0b-930098a3dee9",
@@ -23474,7 +23474,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "STAR_Logo.png",
-            "_v": 1576275618469
+            "_v": 1578860063405
         },
         {
             "id": "0a5bc7d1-a804-45c9-9da6-db1fcabf1b99",
@@ -23484,7 +23484,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Uebergang_CAD-Party.png",
-            "_v": 1576275618469
+            "_v": 1578860063404
         },
         {
             "id": "877ef06a-3398-4b42-971c-f6b90a1f71a2",
@@ -23494,7 +23494,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Uebergang_Kapitel2.png",
-            "_v": 1576275618469
+            "_v": 1578860063404
         },
         {
             "id": "042044ea-55ec-43d8-af61-e359fdf7c6e1",
@@ -23504,7 +23504,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Uebergang_Prolog.png",
-            "_v": 1576275618470
+            "_v": 1578860063404
         },
         {
             "id": "a7b15ec3-8c15-476f-a936-c6ca59794e9c",
@@ -23514,7 +23514,7 @@
             "imageWidth": 160,
             "imageHeight": 144,
             "filename": "Ueberleitung_EUSPEC.png",
-            "_v": 1576275618469
+            "_v": 1578860063404
         }
     ],
     "spriteSheets": [
@@ -23524,7 +23524,7 @@
             "numFrames": 25,
             "type": "animated",
             "filename": "alphabet.png",
-            "_v": 1576275618471
+            "_v": 1578860063404
         },
         {
             "id": "dfae0431-4f87-49e9-b35f-820f6e5865bf",
@@ -23532,7 +23532,15 @@
             "numFrames": 1,
             "type": "static",
             "filename": "Arno.png",
-            "_v": 1576275618471
+            "_v": 1578860063405
+        },
+        {
+            "id": "4cfa59ff-4cf0-4f55-929d-565d6a3424ce",
+            "name": "Arno_animiert",
+            "numFrames": 6,
+            "type": "actor_animated",
+            "filename": "Arno_animiert.png",
+            "_v": 1578860063405
         },
         {
             "id": "85d86d07-0940-4d9c-a652-868ddf474c88",
@@ -23540,7 +23548,7 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "CAD-Party_Armbewegung.png",
-            "_v": 1576275618470
+            "_v": 1578860063405
         },
         {
             "id": "549f926d-7822-49f9-b966-b9dd3fb4e9d8",
@@ -23548,7 +23556,7 @@
             "numFrames": 2,
             "type": "animated",
             "filename": "CAD-Party_Bildschirm_Animation.png",
-            "_v": 1576275618471
+            "_v": 1578860063405
         },
         {
             "id": "f0c3033d-e82a-407d-9fe2-3d5da4f59c09",
@@ -23556,7 +23564,15 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "checkbox.png",
-            "_v": 1576275618471
+            "_v": 1578860063405
+        },
+        {
+            "id": "b9b7f31a-305a-49c6-b352-253e9d5c9c70",
+            "name": "Cloud",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "Cloud.png",
+            "_v": 1578860063405
         },
         {
             "id": "17219846-cda9-4e84-bdfa-c3ff105d42cc",
@@ -23564,7 +23580,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "dog.png",
-            "_v": 1576275618471
+            "_v": 1578860063405
         },
         {
             "id": "fc22ae64-e914-413f-8cbe-d0cf3533cd63",
@@ -23572,7 +23588,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "Elias.png",
-            "_v": 1576275618472
+            "_v": 1578860063405
         },
         {
             "id": "f2610e3c-8ff9-42fa-a9bb-d1591031fa17",
@@ -23580,7 +23596,7 @@
             "numFrames": 4,
             "type": "animated",
             "filename": "fire.png",
-            "_v": 1576275618472
+            "_v": 1578860063405
         },
         {
             "id": "15f18346-a7c4-4ee8-84ef-e2a6d10637ee",
@@ -23588,7 +23604,7 @@
             "numFrames": 3,
             "type": "actor",
             "filename": "HP.png",
-            "_v": 1576275618471
+            "_v": 1578860063405
         },
         {
             "id": "93e24848-4c87-4189-af9a-7cc40592ff02",
@@ -23596,7 +23612,15 @@
             "numFrames": 1,
             "type": "static",
             "filename": "Jakob.png",
-            "_v": 1576275618471
+            "_v": 1578860063405
+        },
+        {
+            "id": "09ce7767-fe5a-4a09-abca-59b480ccc58d",
+            "name": "Jakob_animiert",
+            "numFrames": 6,
+            "type": "actor_animated",
+            "filename": "Jakob_animiert.png",
+            "_v": 1578860063405
         },
         {
             "id": "eb485872-4928-4bc5-b013-2acfdebcccea",
@@ -23604,15 +23628,15 @@
             "numFrames": 1,
             "type": "static",
             "filename": "Lucas.png",
-            "_v": 1576275618472
+            "_v": 1578860063405
         },
         {
             "id": "1685e1d1-d61b-4487-8b13-574215a7ee36",
             "name": "Lucas_animiert",
-            "numFrames": 3,
-            "type": "actor",
+            "numFrames": 6,
+            "type": "actor_animated",
             "filename": "Lucas_animiert.png",
-            "_v": 1576275618472
+            "_v": 1578860063405
         },
         {
             "id": "dd348b18-e9c6-4bdb-b6c0-2683556045c0",
@@ -23620,7 +23644,23 @@
             "numFrames": 1,
             "type": "static",
             "filename": "Lukas.png",
-            "_v": 1576275618472
+            "_v": 1578860063405
+        },
+        {
+            "id": "66136e6a-8daa-444a-bb78-e2156312df54",
+            "name": "Meterorite",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "Meterorite.png",
+            "_v": 1578860063405
+        },
+        {
+            "id": "35907855-1d5d-4734-aff1-5aa0893904ec",
+            "name": "Meterorite2",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "Meterorite2.png",
+            "_v": 1578860063405
         },
         {
             "id": "e4f54ebb-41c7-423b-95c3-4c0909f143e4",
@@ -23628,7 +23668,15 @@
             "numFrames": 1,
             "type": "static",
             "filename": "Nils.png",
-            "_v": 1576275618472
+            "_v": 1578860063405
+        },
+        {
+            "id": "b1e22726-221c-46fb-bede-f29f34811774",
+            "name": "Player",
+            "numFrames": 6,
+            "type": "actor_animated",
+            "filename": "Player.png",
+            "_v": 1578860063405
         },
         {
             "id": "9f682184-8030-424b-8ad4-6bc76570ae63",
@@ -23636,7 +23684,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "Rico.png",
-            "_v": 1576275618472
+            "_v": 1578860063405
         },
         {
             "id": "003442e2-3bfc-48cd-80e9-48f38379e5aa",
@@ -23644,7 +23692,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "selector.png",
-            "_v": 1576275618472
+            "_v": 1578860063406
         },
         {
             "id": "30b8266a-0533-4f90-bd33-e97dc1d498ea",
@@ -23652,7 +23700,23 @@
             "numFrames": 1,
             "type": "static",
             "filename": "signpost.png",
-            "_v": 1576275618472
+            "_v": 1578860063415
+        },
+        {
+            "id": "42b9ef7f-9d01-4156-9455-e1d54228df50",
+            "name": "Trash",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "Trash.png",
+            "_v": 1578860063405
+        },
+        {
+            "id": "5544de20-dc30-4fd3-977a-4506ea292691",
+            "name": "UFO",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "UFO.png",
+            "_v": 1578860063405
         },
         {
             "id": "24804383-c2d6-4433-83eb-389270c54d52",
@@ -23660,7 +23724,7 @@
             "numFrames": 1,
             "type": "static",
             "filename": "Whoami.png",
-            "_v": 1576275618472
+            "_v": 1578860063406
         }
     ],
     "music": [
@@ -23668,7 +23732,7 @@
             "id": "f50428ab-a084-4591-9bba-2ba10fe7b1c6",
             "name": "template",
             "filename": "template.mod",
-            "_v": 1576275618392
+            "_v": 1578860063346
         }
     ],
     "customEvents": [
