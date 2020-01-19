@@ -2,9 +2,9 @@
     "settings": {
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 401.6000061035156,
-        "worldScrollY": 601.5999755859375,
-        "zoom": 157.81249856948853,
+        "worldScrollX": 25.600000381469727,
+        "worldScrollY": 271.20001220703125,
+        "zoom": 118.57639002799988,
         "customColorsWhite": "E8F8E0",
         "customColorsLight": "B0F088",
         "customColorsDark": "509878",
@@ -779,6 +779,13 @@
                     "children": {
                         "true": [
                             {
+                                "id": "36fba2e9-555a-46c9-8a39-7d0ad90f1810",
+                                "command": "EVENT_PLAYER_SET_SPRITE",
+                                "args": {
+                                    "spriteSheetId": "86d76c5d-cc09-4625-b2f6-44910d0dccc1"
+                                }
+                            },
+                            {
                                 "id": "097d011b-f705-4f41-9663-c1da8897f9c0",
                                 "command": "EVENT_SET_VALUE",
                                 "args": {
@@ -890,7 +897,8 @@
                                 "id": "3f533962-ddd1-4b91-97e0-c5024f73740d",
                                 "command": "EVENT_SET_FALSE",
                                 "args": {
-                                    "variable": "111"
+                                    "variable": "111",
+                                    "__collapse": true
                                 }
                             },
                             {
@@ -921,7 +929,7 @@
                                 "args": {
                                     "actorId": "6833317b-012e-457e-9214-b2d6e404f777",
                                     "speed": "4",
-                                    "__collapse": false
+                                    "__collapse": true
                                 }
                             },
                             {
@@ -2180,9 +2188,9 @@
                     "id": "9daba1e6-c056-494a-babc-caa87913aa32",
                     "command": "EVENT_SWITCH_SCENE",
                     "args": {
-                        "sceneId": "ebfb9924-43b8-4076-8bab-f3909ab72dae",
-                        "x": 3,
-                        "y": 10,
+                        "sceneId": "8a52b387-2a88-4741-8d4e-ca56acea4672",
+                        "x": 15,
+                        "y": 2,
                         "direction": "",
                         "fadeSpeed": "2",
                         "__collapse": false
@@ -17065,7 +17073,7 @@
             "actors": [
                 {
                     "id": "5124a9b6-fb5b-410e-aad1-40965b162bf2",
-                    "spriteSheetId": "17219846-cda9-4e84-bdfa-c3ff105d42cc",
+                    "spriteSheetId": "b9b7f31a-305a-49c6-b352-253e9d5c9c70",
                     "x": 10,
                     "y": 30,
                     "movementType": "static",
@@ -17077,7 +17085,7 @@
                 },
                 {
                     "id": "6779a21b-3afb-4f0c-99fa-5a3a7f897cf9",
-                    "spriteSheetId": "17219846-cda9-4e84-bdfa-c3ff105d42cc",
+                    "spriteSheetId": "b9b7f31a-305a-49c6-b352-253e9d5c9c70",
                     "x": 15,
                     "y": 19,
                     "movementType": "static",
@@ -17089,7 +17097,7 @@
                 },
                 {
                     "id": "8c660440-3c75-4aad-a46a-6992da0fffcd",
-                    "spriteSheetId": "17219846-cda9-4e84-bdfa-c3ff105d42cc",
+                    "spriteSheetId": "b9b7f31a-305a-49c6-b352-253e9d5c9c70",
                     "x": 20,
                     "y": 29,
                     "movementType": "static",
@@ -23727,6 +23735,14 @@
             "type": "static",
             "filename": "UFO.png",
             "_v": 1578860063405
+        },
+        {
+            "id": "86d76c5d-cc09-4625-b2f6-44910d0dccc1",
+            "name": "VISAS_Vehicel",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "VISAS_Vehicel.png",
+            "_v": 1578862828159
         },
         {
             "id": "24804383-c2d6-4433-83eb-389270c54d52",
